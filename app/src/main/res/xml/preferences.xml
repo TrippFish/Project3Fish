@@ -4,7 +4,8 @@
         android:entries="@array/JSON_URL_NAME"
         android:entryValues="@array/JSON_URL"
         android:key="ServerPref"
-        android:summary="Select which site to get JSON data from.">
+        android:summary="Select which site to get JSON data from."
+        android:onClick="doPrefChangeListener">
     </ListPreference>
 
 </PreferenceScreen>

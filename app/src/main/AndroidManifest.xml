@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SettingsActivity"
+            android:name=".PrefActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/action_settings"
             android:screenOrientation="portrait">
